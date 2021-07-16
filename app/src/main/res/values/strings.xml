@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Map App</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="camera">camera</string>
+    <string name="gallery">gallery</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="next">Next</string>
+    <string name="get_location">Get Location</string>
+    <string name="area">Area</string>
+    <string name="send">Send</string>
+    <string name="title">Title</string>
+    <string name="save_on_device">Save on Device</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="district">District*</string>
+    <string name="maps_view">Maps View</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="offline_data">Offline Data</string>
+    <string name="logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <style name="Theme.TestApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <string-array name="array_districts">
+        <item>Select Your District</item>
+        <item>Bajali</item>
+        <item>Baksa</item>
+        <item>Barpeta</item>
+        <item>Biswanath</item>
+        <item>Bongaigaon</item>
+        <item>Cachar</item>
+        <item>Charaideo</item>
+        <item>Chirang</item>
+        <item>Darrang</item>
+        <item>Dhemaji</item>
+        <item>Dhubri</item>
+        <item>Dibrugarh</item>
+        <item>Dima Hasao</item>
+        <item>Goalpara</item>
+        <item>Golaghat</item>
+        <item>Hailakandi</item>
+        <item>Hojai</item>
+        <item>Jorhat</item>
+        <item>Kamrup</item>
+        <item>Kamrup Metropolitan</item>
+        <item>Karbi Anglong</item>
+        <item>Karimganj</item>
+        <item>Kokrajhar</item>
+        <item>Lakhimpur</item>
+        <item>Majuli</item>
+        <item>Morigaon</item>
+        <item>Nagaon</item>
+        <item>Nalbari</item>
+        <item>Sivasagar</item>
+        <item>Sonitpur</item>
+        <item>South Salmara-Mankachar</item>
+        <item>Tinsukia</item>
+        <item>Udalguri</item>
+        <item>West Karbi Anglong</item>
+    </string-array>
+
+
+</resources>

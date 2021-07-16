@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="Map View" />
+        <item
+            android:id="@+id/nav_storage"
+            android:icon="@drawable/ic_sync"
+            android:title="Device Data" />
+        <item
+            android:id="@+id/nav_uploads"
+            android:icon="@drawable/ic_post_library"
+            android:title="My Uploads" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

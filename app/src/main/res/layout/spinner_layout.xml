@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView android:layout_width="210dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="16sp"
+    android:gravity="center_horizontal"
+    android:padding="6dp"
+    android:fontFamily="@font/maven_pro"
+    android:background="@drawable/border"
+    android:layout_gravity="center_horizontal"
+    android:ems="10" />

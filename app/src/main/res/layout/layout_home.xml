@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="60dp"
+        android:paddingBottom="60dp">
+
+        <ImageView
+            android:id="@+id/displayImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/placeholder" />
+
+        <ImageButton
+            android:id="@+id/imagePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/displayImageView"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ic_photo_camera_black_48dp" />
+
+        <EditText
+            android:id="@+id/ettitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagePicker"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/maven_pro"
+            android:hint="@string/title"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ettitle"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/latitude"
+            android:fontFamily="@font/maven_pro"
+            android:textSize="24sp"
+            android:id="@+id/latitude"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/latitude"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/longitude"
+            android:fontFamily="@font/maven_pro"
+            android:textSize="24sp"
+            android:id="@+id/longitude"/>
+
+        <TextView
+            android:id="@+id/tvDistrict"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/longitude"
+            android:layout_marginTop="30dp"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:focusableInTouchMode="true"
+            android:padding="6dp"
+            android:fontFamily="@font/maven_pro"
+            android:text="@string/district"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerDistrict"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="120dp"
+            android:layout_below="@id/tvDistrict"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerDistrict"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/send"
+            android:fontFamily="@font/maven_pro"
+            android:id="@+id/postbtn"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

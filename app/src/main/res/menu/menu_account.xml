@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item android:title="@string/maps_view"-->
+<!--        android:fontFamily="@font/maven_pro"-->
+<!--        android:id="@+id/item_maps"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+<!--    <item android:title="@string/sync_now"-->
+<!--        android:fontFamily="@font/maven_pro"-->
+<!--        android:id="@+id/item_sync"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+<!--    <item android:title="@string/offline_data"-->
+<!--        android:fontFamily="@font/maven_pro"-->
+<!--        android:id="@+id/item_local"-->
+<!--        app:showAsAction="collapseActionView" />-->
+<!--    <item android:title="@string/logout"-->
+<!--        android:fontFamily="@font/maven_pro"-->
+<!--        android:id="@+id/item_logout"-->
+<!--        app:showAsAction="collapseActionView" />-->
+
+</menu>
