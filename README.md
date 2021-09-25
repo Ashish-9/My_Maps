@@ -1,4 +1,4 @@
-# My Maps
+# Development of Open Api for integration with BharatMap
 The project is an android based application that communicates with the server with Json request and response. The main objective of this application is to collect data by capturing images and location along with other parameters and upload them to the server of BharatMap. The application is required to work in remote locations as well, without internet connectivity. 
 
 •	The proposed system has two users: Admin and Application user.
